@@ -1,0 +1,15 @@
+
+git version
+
+cd rutaDeLaCarpeta
+
+git init
+
+git add .
+git commit -m "mi primer commit"
+
+
+git config --global user.name "sigfrido"
+git config --global user.email "sigfrido_o@ardilluda.com.mx"
+
+https://github.com/SigfridoO/cursopython
