@@ -10,3 +10,11 @@ print ("fuma: ", fuma)
 
 nombre = 'Mi nombre es: "Isaac"'
 print ('nombre: ', nombre)
+
+# ---------- Enteros
+print("===================== Enteros")
+numero = 500
+print('numero: ', numero)
+
+import math
+print(math.factorial(numero))
