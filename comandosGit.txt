@@ -13,3 +13,7 @@ git config --global user.name "sigfrido"
 git config --global user.email "sigfrido_o@ardilluda.com.mx"
 
 https://github.com/SigfridoO/cursopython
+
+git log
+
+git clone https://github.com/SigfridoO/cursopython

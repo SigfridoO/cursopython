@@ -74,3 +74,9 @@ nuevo_subtema('for')
 
 for i in range(5):
     print(i)
+
+
+nuevo_subtema('while')
+
+
+nuevo_subtema('do-while')
