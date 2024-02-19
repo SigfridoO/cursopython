@@ -47,9 +47,44 @@ print ('miListaDeFrutas.sort()', miListaDeFrutas)
 
 
 print('longitud de la lista', len(miListaDeFrutas)  )
+# Recorriendo una lista con un for
+for fruta in miListaDeFrutas:
+    print (fruta)
+
 
 miLista2 = ['casas', 25, 1.8 ,'caminar', True]
 print ('miLista2: ', miLista2)
+
+#--------------------- diccionarios
+nuevo_subtema('diccionario')
+
+miPrimerDiccionario = dict()
+
+miSegundoDiccionario = {'nombre': "Pancho", 'edad': 25, 
+    "altura": 1.4 , "Observaciones": "no da clase"}
+
+print("miPrimerDiccionario : ", miPrimerDiccionario)
+print("miSegundoDiccionario: ", miSegundoDiccionario)
+
+# seleccionando un elemento
+print("miSegundoDiccionario.get('nombre') = ", 
+    miSegundoDiccionario.get('nombre'))
+
+# agregando un elemento
+print("miPrimerDiccionario : ", miPrimerDiccionario)
+miPrimerDiccionario.update({"mexico": "tecolotitos de tlaxcala"})
+print("miPrimerDiccionario : ", miPrimerDiccionario)
+
+# obteniendo valores
+print("miSegundoDiccionario.values(): ", miSegundoDiccionario.values())
+# obteniendo llaves
+print("miSegundoDiccionario.keys(): ", miSegundoDiccionario.keys())
+
+# recorriendo un diccionario con for
+for key, value in miSegundoDiccionario.items():
+    print (key , ":", value)
+
+
 
 nuevo_tema("Instrucciones de control")
 
