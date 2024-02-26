@@ -112,4 +112,4 @@ nuevo_subtema('do-while')
 
 
 nuevo_tema('Funciones')
-print ("La suma es: ",  sumar(numeroA, numeroB))
+print ("La suma es: ",  sumar(numeroA, numeroB, 1, 2,  3, 4, 5,))

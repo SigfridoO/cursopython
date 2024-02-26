@@ -15,7 +15,13 @@ def comparar(numeroA:int, numeroB:int):
     if numeroA == numeroB:
         print(numeroA, "es igual", numeroB)
 
-def sumar(numeroA:int, numeroB:int) -> int:
-    resultado = numeroA + numeroB
+def sumar(*args) -> int:
+    print('Los numeros a sumar son')
 
-    return resultado
+    suma = 0
+    for numero in args:
+        print(numero)
+        suma += numero
+
+    
+    return suma
