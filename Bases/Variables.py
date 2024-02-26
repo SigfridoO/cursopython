@@ -1,4 +1,5 @@
-from Varias import nuevo_tema, nuevo_subtema
+from Varias import nuevo_tema, nuevo_subtema, comparar, \
+    sumar
 
 nuevo_tema("Variables")
 
@@ -95,14 +96,7 @@ nuevo_subtema('if-else')
 numeroA = 44
 numeroB = 8
 
-if numeroA > numeroB:
-    print(numeroA, "es mayor que", numeroB)
-
-if numeroA < numeroB:
-    print(numeroA, "es menor que", numeroB)
-
-if numeroA == numeroB:
-    print(numeroA, "es igual", numeroB)
+comparar(numeroA, numeroB)
 
 nuevo_tema("ciclos")
 nuevo_subtema('for')
@@ -115,3 +109,7 @@ nuevo_subtema('while')
 
 
 nuevo_subtema('do-while')
+
+
+nuevo_tema('Funciones')
+print ("La suma es: ",  sumar(numeroA, numeroB))
