@@ -105,7 +105,35 @@ for i in range(5):
     print(i)
 
 
+def crearMenu():
+    print("-----------------------------")
+    print('Programa que calcula el área de figuras geométricas')
+    print('Elige una opcion')
+    print("-----------------------------")
+    print('1. Cuadrado')
+    print('2. Círculo')
+    print('0. Salir')
+
 nuevo_subtema('while')
+condicion = True
+contador = 0
+crearMenu()
+while condicion:
+
+
+
+    print ('La condicion es ', condicion, contador)
+    contador = contador +1
+
+    if contador > 5:
+        condicion = False
+
+
+
+
+
+
+
 
 
 nuevo_subtema('do-while')
