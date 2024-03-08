@@ -10,6 +10,7 @@ class Caja(QLabel):
         self.setStyleSheet(f'background-color: {color}')
 
 
+
 class Ventana(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
