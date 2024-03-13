@@ -26,7 +26,21 @@ class Ventana(QMainWindow):
     def keyPressEvent(self, event):
 
         indice = self.layout.currentIndex()
-        indiceMaximo = self.layout.count()
+        indiceMaximo = self.layout.count() - 1
+
+        if event.key() == Qt.Key_Right:
+            indice += 1
+
+        if event.key() == Qt.Key_Left:
+            indice -= 1
+
+        if indice < 0:
+            indice = indiceMaximo
+        if indice > indiceMaximo:
+            indice = 0
+
+        self.layout.setCurrentIndex(indice)
+
         print(indice, indiceMaximo)
 
         event.accept()
