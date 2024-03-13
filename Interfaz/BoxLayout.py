@@ -1,7 +1,7 @@
 
 import sys
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QVBoxLayout
 
 from Caja import Caja
 
@@ -13,7 +13,7 @@ class Ventana(QMainWindow):
         caja2 = Caja('blue')
         caja3 = Caja('yellow')
         
-        layout =  QHBoxLayout()
+        layout =  QVBoxLayout()
         layout.addWidget(caja1)
         layout.addWidget(caja2)
         layout.addWidget(caja3)
