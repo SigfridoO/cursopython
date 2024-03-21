@@ -25,7 +25,7 @@ class Ventana(QMainWindow):
         color = QColorDialog.getColor()
         print(color)
         
-        if color.isValid:
+        if color.isValid():
             self.boton.setStyleSheet(f"background-color: {color.name()}")
 
 if __name__ == '__main__':
